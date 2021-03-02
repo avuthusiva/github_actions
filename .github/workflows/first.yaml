@@ -9,5 +9,5 @@ jobs:
       uses: actions/checkout@v2
     - name: step two
       run: |
-            env | sort 
+            cal 
             date 
