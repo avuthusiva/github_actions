@@ -8,4 +8,4 @@ jobs:
     - name: step one
       uses: actions/checkout@v2
     - name: step two
-      run: echo env | sort  
+      run: env | sort  
