@@ -1,0 +1,11 @@
+name: github_actions
+on: push
+jobs:
+  job1:
+    name: First job
+    runs-on: ubuntu-latest
+    steps:
+      - name: First Step
+        uses: actions/checkout@v2
+      - name: Second Step
+        run: env | sort  
